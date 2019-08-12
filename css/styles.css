@@ -56,8 +56,8 @@ main > .tagline {
 }
 
 main > .avatar{
-	width: 10rem;
-	height: 10rem;
+	width: 200px;
+	height: 200px;
 	margin: 10px auto;
 }
 
