@@ -55,6 +55,12 @@ main > .tagline {
 	font-weight: 100;
 }
 
+main > .avatar{
+	width: 10rem;
+	height: 10rem;
+	margin: 10px auto;
+}
+
 .icons-social i {
 	padding: 10px;
 }
