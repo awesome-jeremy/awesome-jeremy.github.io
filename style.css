@@ -179,6 +179,14 @@ h2 {
   flex: 1 1 auto;
 }
 
+.card-content h4{
+  color:black;
+  font-size: 0.75em;
+}
+.card-content .desc{
+  font-size: 0.8em;
+}
+
 h4 {
   margin: 0;
   font-weight: 400;
@@ -187,6 +195,11 @@ h4 {
 
 .job-title {
   float: right;
+}
+
+.dates-attended{
+  float: right;
+  font-size: 0.75em;
 }
 
 /*PROJECTS*/
