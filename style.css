@@ -221,6 +221,11 @@ h4 {
   display: block;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  height: 400px;
+  width: 600px;
+  /* height: 20em;
+  width: 30em; */
+
 }
 
 .project-content {
