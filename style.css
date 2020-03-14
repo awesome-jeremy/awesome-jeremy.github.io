@@ -196,6 +196,8 @@ h4 {
 
 .job-title {
   float: right;
+  text-decoration: underline;
+  color: black;
 }
 
 .dates-attended{
@@ -223,7 +225,7 @@ h4 {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   height: 24em;
-  width: 36em;
+  width: 40em;
   /* max-width: 100%;
   height: auto; */
 }
