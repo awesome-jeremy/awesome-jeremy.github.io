@@ -1,351 +1,531 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="description" name="description" />
+    <meta name="google" content="notranslate" />
+    <meta
+      content="Mashup templates have been developped by Orson.io team"
+      name="author"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no" />
 
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-icon-180x180.png"
+    />
+    <link href="./assets/favicon.ico" rel="icon" />
 
+    <link href="" rel="stylesheet" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
-  <link href="./assets/favicon.ico" rel="icon">
+    <title>Jeremy's Portfolio</title>
 
-  <link href="" rel="stylesheet">
+    <link href="./main.550dcf66.css" rel="stylesheet" />
+  </head>
 
+  <body>
+    <!-- Add your content of header -->
+    <header>
+      <nav class="navbar navbar-default active">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar-collapse"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html" title="">
+              <!-- <img src="./assets/images/mashup-icon.svg" class="navbar-logo-img" alt=""> -->
+              Jeremy's Portfolio
+            </a>
+          </div>
 
-  <title>Jeremy's Portfolio</title>
-
-  <link href="./main.550dcf66.css" rel="stylesheet">
-</head>
-
-<body>
-  <!-- Add your content of header -->
-  <header>
-    <nav class="navbar navbar-default active">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
-            aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="./index.html" title="">
-            <!-- <img src="./assets/images/mashup-icon.svg" class="navbar-logo-img" alt=""> -->
-            Jeremy's Portfolio
-          </a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="./index.html" title="">Home</a></li>
-            <li><a href="./project.html" title="">Project</a></li>
-            <!-- <li>
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="./index.html" title="">Home</a></li>
+              <li><a href="./project.html" title="">Project</a></li>
+              <!-- <li>
             <p>
               <a href="./components.html" class="btn btn-default navbar-btn" title="">Components</a>
             </p>
           </li> -->
-
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <h2 class="text-center">Smart Brain Ap</h2>
-          <p>Detect Human Faces in a Picture.</p>
-          <p>
-            Tech Stack
-          <ul>
-            <li>
-              Back-end
-              <ul>
-                <li>Express</li>
-                <li>PostgreSQL, Knex</li>
-                <li>bcrypt</li>
-                <li>jsonwebtoken</li>
-                <li>Redis</li>
-                <li>Docker</li>
-              </ul>
-            </li>
-            <li>
-              Front-end
-              <ul>
-                <li>React.js</li>
-                <li>tachyons</li>
-                <li>Clarify API - for AI face recognition</li>
-                <li>AWS Lambda</li>
-              </ul>
-            </li>
-          </ul>
-          </p>
-
-          <a href="https://github.com/captain-ray/smart-brain-server" class="btn btn-primary" title="" target="_blank"
-            style="margin-bottom: 2rem;">
-            Backend
-          </a>
-          <a href="https://github.com/captain-ray/smart-brain-client" class="btn btn-primary" title="" target="_blank"
-            style="margin-bottom: 2rem;">
-            Frontend
-          </a>
-
-
-          <div class="section-container-spacer">
-            <img src="./assets/images/smartbrain0.png" alt="" class="img-responsive reveal-content" data-action="zoom">
-          </div>
-
-          <div class="row">
-            <div class="col-xs-6">
-              <img src="./assets/images/smartbrain3.png" alt="" class="img-responsive reveal-content"
-                data-action="zoom">
-            </div>
-            <div class="col-xs-6">
-              <img src="./assets/images/smartbrain2.png" alt="" class="img-responsive reveal-content"
-                data-action="zoom">
-            </div>
+            </ul>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+      </nav>
+    </header>
 
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <h2 class="text-center">Stocks Web App</h2>
-          <p>A web application that makes stock market statistics available to the user.</p>
-          <p>
-            Tech Stack
-          <ul>
-            <li>React.js (Hooks, Context)</li>
-            <li>React Router</li>
-            <li>Bootstrap, Reactstrap</li>
-            <li>ag-grid</li>
-            <li>Recharts</li>
-          </ul>
-          </p>
+    <div class="section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h2 class="text-center">Let's Goal Buddy</h2>
+            <p>
+              A mobile app that helps you easily set up your goals and invite
+              your goal buddies to help motivate your goal completion journey!
+            </p>
+            <p>Tech Stack</p>
 
-          <a href="https://medium.com/@ray644302280/stocks-web-app-d688d442e873" class="btn btn-primary" title=""
-            target="_blank" style="margin-bottom: 2rem;">
-            Discover in Medium
-          </a>
+            <ul>
+              <li>React Native</li>
+              <li>Expo</li>
+              <li>AWS Amplify</li>
+              <li>AWS Cognito</li>
+              <li>AWS Appsync</li>
+              <li>AWS DynamoDB</li>
+              <li>AWS S3</li>
+              <li>AWS Lambda</li>
+            </ul>
 
-
-          <div class="section-container-spacer">
-            <img src="./assets/images/StocksWebApp4.png" alt="" class="img-responsive reveal-content"
-              data-action="zoom">
-          </div>
-
-          <div class="row">
-            <div class="col-xs-6">
-              <img src="./assets/images/StocksWebApp5.png" alt="" class="img-responsive reveal-content"
-                data-action="zoom">
+            <div style="display: flex">
+              <a
+                href="https://apps.apple.com/au/app/lets-goal-buddy/id1625278998"
+                target="_blank"
+              >
+                <div
+                  style="
+                    height: 68px;
+                    width: 160px;
+                    background: url('./assets/images/Download_on_the_App_Store.svg');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                  "
+                ></div>
+              </a>
+              <a
+                href="https://letsgoalbuddy.awesomejeremy.com/"
+                class="btn btn-primary"
+                style="height: 52px; margin-left: 20px; border-radius: 10px"
+                title=""
+                target="_blank"
+              >
+                View
+              </a>
             </div>
-            <div class="col-xs-6">
-              <img src="./assets/images/StocksWebApp7.png" alt="" class="img-responsive reveal-content"
-                data-action="zoom">
+
+            <div class="section-container-spacer" style="width: 100%">
+              <img
+                src="./assets/images/lets-goal-app-1.png"
+                alt=""
+                class="img-responsive reveal-content"
+                data-action="zoom"
+              />
+            </div>
+            <div class="section-container-spacer" style="width: 100%">
+              <img
+                src="./assets/images/lets-goal-app-2.png"
+                alt=""
+                class="img-responsive reveal-content"
+                data-action="zoom"
+              />
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <h2 class="text-center">Stocks Mobile App</h2>
-          <p>A React Native mobile application that makes stock market statistics available to the user.</p>
-          <p>
-            Tech Stack
-          <ul>
-            <li>React Native</li>
-            <li>Expo</li>
-          </ul>
-          </p>
-          <a href="https://medium.com/@ray644302280/stocks-mobile-app-af13374c140b" class="btn btn-primary" title=""
-            target="_blank" style="margin-bottom: 2rem;">
-            Discover in Medium
-          </a>
+    <div class="section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-offset-2">
+            <h2 class="text-center">Smart Brain</h2>
+            <p>Detect Human Faces in a Picture.</p>
+            <p>Tech Stack</p>
+            <ul>
+              <li>
+                Back-end
+                <ul>
+                  <li>Express</li>
+                  <li>PostgreSQL, Knex</li>
+                  <li>bcrypt</li>
+                  <li>jsonwebtoken</li>
+                  <li>Redis</li>
+                  <li>Docker</li>
+                </ul>
+              </li>
+              <li>
+                Front-end
+                <ul>
+                  <li>React.js</li>
+                  <li>tachyons</li>
+                  <li>Clarify API - for AI face recognition</li>
+                  <li>AWS Lambda</li>
+                </ul>
+              </li>
+            </ul>
 
-          <div class="section-container-spacer">
-            <img src="./assets/images/StockMobileApp.png" alt="" class="img-responsive reveal-content"
-              data-action="zoom">
-          </div>
+            <a
+              href="https://github.com/captain-ray/smart-brain-server"
+              class="btn btn-primary"
+              title=""
+              target="_blank"
+              style="margin-bottom: 2rem"
+            >
+              Backend
+            </a>
+            <a
+              href="https://github.com/captain-ray/smart-brain-client"
+              class="btn btn-primary"
+              title=""
+              target="_blank"
+              style="margin-bottom: 2rem"
+            >
+              Frontend
+            </a>
 
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <h2 class="text-center">University Educational System</h2>
-          <p>An integrated system for School Adminitrators, Teachers and Students...</p>
-          <p>
-            Tech Stack
-          <ul>
-            <li>CSS/HTML/JS</li>
-            <li>Bootstrap, ace tempalte</li>
-            <li>JSP, DOM, AJAX, jQuery</li>
-            <li>MySQL</li>
-            <li>Java</li>
-          </ul>
-          </p>
-
-          <a href="https://github.com/captain-ray/University-Educational-Management-System" class="btn btn-primary"
-            title="" target="_blank" style="margin-bottom: 2rem;">
-            Discover in Github
-          </a>
-
-
-          <div class="section-container-spacer">
-            <img src="./assets/images/edu_1.png" alt="" class="img-responsive reveal-content" data-action="zoom">
-          </div>
-
-          <div class="row">
-            <div class="col-xs-6">
-              <img src="./assets/images/edu_2.png" alt="" class="img-responsive reveal-content" data-action="zoom">
+            <div class="section-container-spacer">
+              <img
+                src="./assets/images/smartbrain0.png"
+                alt=""
+                class="img-responsive reveal-content"
+                data-action="zoom"
+              />
             </div>
-            <div class="col-xs-6">
-              <img src="./assets/images/edu_3.png" alt="" class="img-responsive reveal-content" data-action="zoom">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <h2 class="text-center">"Let's Go" -- Event App</h2>
-          <p>An Event App for Event Organizers and Event Participants...</p>
-          <p>
-            Tech Stack
-          <ul>
-            <li>CSS/HTML/JS</li>
-            <li>jQuery, jQuery Mobile</li>
-            <li>JSP, DOM, AJAX, jQuery</li>
-            <li>MySQL</li>
-            <li>Java</li>
-            <li>Android API</li>
-          </ul>
-          </p>
-
-          <a href="https://github.com/captain-ray/Event-Launching-Hybrid-App" class="btn btn-primary" title=""
-            target="_blank" style="margin-bottom: 2rem;">
-            Discover in Github
-          </a>
-
-
-          <div class="section-container-spacer">
-            <img src="./assets/images/event_app_7.png" alt="" class="img-responsive reveal-content" data-action="zoom">
-          </div>
-
-          <div class="row">
-            <div class="col-xs-6">
-              <img src="./assets/images/event_app_3.png" alt="" class="img-responsive reveal-content"
-                data-action="zoom">
-            </div>
-            <div class="col-xs-6">
-              <img src="./assets/images/event_app_4.png" alt="" class="img-responsive reveal-content"
-                data-action="zoom">
+            <div class="row">
+              <div class="col-xs-6">
+                <img
+                  src="./assets/images/smartbrain3.png"
+                  alt=""
+                  class="img-responsive reveal-content"
+                  data-action="zoom"
+                />
+              </div>
+              <div class="col-xs-6">
+                <img
+                  src="./assets/images/smartbrain2.png"
+                  alt=""
+                  class="img-responsive reveal-content"
+                  data-action="zoom"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <h2 class="text-center">RoboFriends App</h2>
-          <p> Find your best Robot Friend!</p>
-          <p>
-            Tech Stack
-          <ul>
-            <li>React+Redux</li>
-            <li>tachyons</li>
-            <li>RoboHash-API</li>
-          </ul>
-          </p>
+    <div class="section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-offset-2">
+            <h2 class="text-center">Stocks Web App</h2>
+            <p>
+              A web application that makes stock market statistics available to
+              the user.
+            </p>
+            <p>Tech Stack</p>
+            <ul>
+              <li>React.js (Hooks, Context)</li>
+              <li>React Router</li>
+              <li>Bootstrap, Reactstrap</li>
+              <li>ag-grid</li>
+              <li>Recharts</li>
+            </ul>
 
-          <a href="https://captain-ray.github.io/RoboFriends/" class="btn btn-primary" title="" target="_blank"
-          style="margin-bottom: 2rem;">
-            DEMO
-          </a>
-          <a href="https://github.com/captain-ray/RoboFriends" class="btn btn-primary" title="" target="_blank"
-            style="margin-bottom: 2rem;">
-            Discover in Github
-          </a>
+            <a
+              href="https://medium.com/@ray644302280/stocks-web-app-d688d442e873"
+              class="btn btn-primary"
+              title=""
+              target="_blank"
+              style="margin-bottom: 2rem"
+            >
+              Discover in Medium
+            </a>
 
-          <div class="section-container-spacer">
-            <img src="./assets/images/robofriend1.png" alt="" class="img-responsive reveal-content" data-action="zoom">
+            <div class="section-container-spacer">
+              <img
+                src="./assets/images/StocksWebApp4.png"
+                alt=""
+                class="img-responsive reveal-content"
+                data-action="zoom"
+              />
+            </div>
+
+            <div class="row">
+              <div class="col-xs-6">
+                <img
+                  src="./assets/images/StocksWebApp5.png"
+                  alt=""
+                  class="img-responsive reveal-content"
+                  data-action="zoom"
+                />
+              </div>
+              <div class="col-xs-6">
+                <img
+                  src="./assets/images/StocksWebApp7.png"
+                  alt=""
+                  class="img-responsive reveal-content"
+                  data-action="zoom"
+                />
+              </div>
+            </div>
           </div>
-
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <h2 class="text-center">Quote Generator</h2>
-          <p> Get quote and tweet! </p>
-          <p>
-            Tech Stack
-          <ul>
-            <li>React</li>
-            <li>HTML/CSS/JavaScript</li>
-            <li>Fontawesome Icon</li>
-            <li>Google Fonts</li>
-            <li>Random quote API</li>
-            <li>Twitter API</li>
-          </ul>
-          </p>
+    <div class="section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-offset-2">
+            <h2 class="text-center">Stocks Mobile App</h2>
+            <p>
+              A React Native mobile application that makes stock market
+              statistics available to the user.
+            </p>
+            <p>Tech Stack</p>
+            <ul>
+              <li>React Native</li>
+              <li>Expo</li>
+            </ul>
+            <a
+              href="https://medium.com/@ray644302280/stocks-mobile-app-af13374c140b"
+              class="btn btn-primary"
+              title=""
+              target="_blank"
+              style="margin-bottom: 2rem"
+            >
+              Discover in Medium
+            </a>
 
-          <a href="https://captain-ray.github.io/Quote-Generator/" class="btn btn-primary" title="" target="_blank"
-          style="margin-bottom: 2rem;">
-            DEMO
-          </a>
-          <a href="https://github.com/captain-ray/Quote-Generator" class="btn btn-primary" title="" target="_blank"
-          style="margin-bottom: 2rem;">
-            Discover in Github
-          </a>
-
-          <div class="section-container-spacer">
-            <img src="./assets/images/quote-generator4.png" alt="" class="img-responsive reveal-content" data-action="zoom">
+            <div class="section-container-spacer">
+              <img
+                src="./assets/images/StockMobileApp.png"
+                alt=""
+                class="img-responsive reveal-content"
+                data-action="zoom"
+              />
+            </div>
           </div>
-
         </div>
       </div>
     </div>
-  </div>
 
+    <div class="section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-offset-2">
+            <h2 class="text-center">University Educational System</h2>
+            <p>
+              An integrated system for School Adminitrators, Teachers and
+              Students...
+            </p>
+            <p>Tech Stack</p>
+            <ul>
+              <li>CSS/HTML/JS</li>
+              <li>Bootstrap, ace tempalte</li>
+              <li>JSP, DOM, AJAX, jQuery</li>
+              <li>MySQL</li>
+              <li>Java</li>
+            </ul>
 
+            <a
+              href="https://github.com/captain-ray/University-Educational-Management-System"
+              class="btn btn-primary"
+              title=""
+              target="_blank"
+              style="margin-bottom: 2rem"
+            >
+              Discover in Github
+            </a>
 
-  <!-- <div class="section-container">
+            <div class="section-container-spacer">
+              <img
+                src="./assets/images/edu_1.png"
+                alt=""
+                class="img-responsive reveal-content"
+                data-action="zoom"
+              />
+            </div>
+
+            <div class="row">
+              <div class="col-xs-6">
+                <img
+                  src="./assets/images/edu_2.png"
+                  alt=""
+                  class="img-responsive reveal-content"
+                  data-action="zoom"
+                />
+              </div>
+              <div class="col-xs-6">
+                <img
+                  src="./assets/images/edu_3.png"
+                  alt=""
+                  class="img-responsive reveal-content"
+                  data-action="zoom"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-offset-2">
+            <h2 class="text-center">"Let's Go" -- Event App</h2>
+            <p>An Event App for Event Organizers and Event Participants...</p>
+            <p>Tech Stack</p>
+            <ul>
+              <li>CSS/HTML/JS</li>
+              <li>jQuery, jQuery Mobile</li>
+              <li>JSP, DOM, AJAX, jQuery</li>
+              <li>MySQL</li>
+              <li>Java</li>
+              <li>Android API</li>
+            </ul>
+
+            <a
+              href="https://github.com/captain-ray/Event-Launching-Hybrid-App"
+              class="btn btn-primary"
+              title=""
+              target="_blank"
+              style="margin-bottom: 2rem"
+            >
+              Discover in Github
+            </a>
+
+            <div class="section-container-spacer">
+              <img
+                src="./assets/images/event_app_7.png"
+                alt=""
+                class="img-responsive reveal-content"
+                data-action="zoom"
+              />
+            </div>
+
+            <div class="row">
+              <div class="col-xs-6">
+                <img
+                  src="./assets/images/event_app_3.png"
+                  alt=""
+                  class="img-responsive reveal-content"
+                  data-action="zoom"
+                />
+              </div>
+              <div class="col-xs-6">
+                <img
+                  src="./assets/images/event_app_4.png"
+                  alt=""
+                  class="img-responsive reveal-content"
+                  data-action="zoom"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-offset-2">
+            <h2 class="text-center">RoboFriends App</h2>
+            <p>Find your best Robot Friend!</p>
+            <p>Tech Stack</p>
+            <ul>
+              <li>React+Redux</li>
+              <li>tachyons</li>
+              <li>RoboHash-API</li>
+            </ul>
+
+            <a
+              href="https://captain-ray.github.io/RoboFriends/"
+              class="btn btn-primary"
+              title=""
+              target="_blank"
+              style="margin-bottom: 2rem"
+            >
+              DEMO
+            </a>
+            <a
+              href="https://github.com/captain-ray/RoboFriends"
+              class="btn btn-primary"
+              title=""
+              target="_blank"
+              style="margin-bottom: 2rem"
+            >
+              Discover in Github
+            </a>
+
+            <div class="section-container-spacer">
+              <img
+                src="./assets/images/robofriend1.png"
+                alt=""
+                class="img-responsive reveal-content"
+                data-action="zoom"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-offset-2">
+            <h2 class="text-center">Quote Generator</h2>
+            <p>Get quote and tweet!</p>
+            <p>Tech Stack</p>
+            <ul>
+              <li>React</li>
+              <li>HTML/CSS/JavaScript</li>
+              <li>Fontawesome Icon</li>
+              <li>Google Fonts</li>
+              <li>Random quote API</li>
+              <li>Twitter API</li>
+            </ul>
+
+            <a
+              href="https://captain-ray.github.io/Quote-Generator/"
+              class="btn btn-primary"
+              title=""
+              target="_blank"
+              style="margin-bottom: 2rem"
+            >
+              DEMO
+            </a>
+            <a
+              href="https://github.com/captain-ray/Quote-Generator"
+              class="btn btn-primary"
+              title=""
+              target="_blank"
+              style="margin-bottom: 2rem"
+            >
+              Discover in Github
+            </a>
+
+            <div class="section-container-spacer">
+              <img
+                src="./assets/images/quote-generator4.png"
+                alt=""
+                class="img-responsive reveal-content"
+                data-action="zoom"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="section-container">
     <div class="container">
       <div class="row section-container-spacer">
         <div class="col-xs-12 col-md-8 col-md-offset-2">
@@ -366,24 +546,37 @@
     </div>
   </div> -->
 
-  <div class="section-container">
-    <div class="container text-center">
-      <div class="row section-container-spacer">
-        <div class="col-xs-12 col-md-12">
-
-          <h3>Do you like it ?</h3>
-          <p>
-            <a href="https://github.com/captain-ray" class="social-round-icon fa-icon" title="" target="_blank">
-              <i class="fa fa-github" aria-hidden="true"></i>
-            </a>
-            <a href="https://medium.com/@ray644302280" class="social-round-icon fa-icon" title="" target="_blank">
-              <i class="fa fa-medium" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/jeremy-cheng-329930188/" class="social-round-icon fa-icon" title=""
-              target="_blank">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-            <!-- <a href="https://github.com/captain-ray" title="" style="margin:1rem" target="_blank">
+    <div class="section-container">
+      <div class="container text-center">
+        <div class="row section-container-spacer">
+          <div class="col-xs-12 col-md-12">
+            <h3>Do you like it ?</h3>
+            <p>
+              <a
+                href="https://github.com/captain-ray"
+                class="social-round-icon fa-icon"
+                title=""
+                target="_blank"
+              >
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a
+                href="https://medium.com/@ray644302280"
+                class="social-round-icon fa-icon"
+                title=""
+                target="_blank"
+              >
+                <i class="fa fa-medium" aria-hidden="true"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jeremy-cheng-329930188/"
+                class="social-round-icon fa-icon"
+                title=""
+                target="_blank"
+              >
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <!-- <a href="https://github.com/captain-ray" title="" style="margin:1rem" target="_blank">
               <i class="fa fa-github fa-2x" aria-hidden="true"></i>
             </a>
             <a href="https://medium.com/@ray644302280" title="" style="margin:1rem" target="_blank">
@@ -392,28 +585,25 @@
             <a href="https://www.linkedin.com/in/jeremy-cheng-329930188/" title="" style="margin:1rem" target="_blank">
               <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
             </a> -->
-          </p>
+            </p>
+          </div>
         </div>
       </div>
-
     </div>
-  </div>
 
-  <footer class="footer-container white-text-container">
-    <div class="container">
-      <div class="row">
+    <footer class="footer-container white-text-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h3>Jeremy Cheng</h3>
 
-
-        <div class="col-xs-12">
-          <h3>Jeremy Cheng</h3>
-
-          <div class="row">
-            <div class="col-xs-12 col-sm-7">
-              <p>
-                <small>Keep pushing yourself to become a better man.</small>
-              </p>
-            </div>
-            <!-- <div class="col-xs-12 col-sm-5">
+            <div class="row">
+              <div class="col-xs-12 col-sm-7">
+                <p>
+                  <small>Keep pushing yourself to become a better man.</small>
+                </p>
+              </div>
+              <!-- <div class="col-xs-12 col-sm-5">
               <p class="text-right">
                 <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -426,22 +616,20 @@
                 </a>
               </p>
             </div> -->
+            </div>
           </div>
-
-
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-      navActivePage();
-      scrollRevelation('.reveal');
-    });
-  </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        navActivePage();
+        scrollRevelation(".reveal");
+      });
+    </script>
 
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
 
 <script>
   (function (i, s, o, g, r, a, m) {
@@ -455,7 +643,6 @@
 </script>
 
 -->
-  <script type="text/javascript" src="./main.0cf8b554.js"></script>
-</body>
-
+    <script type="text/javascript" src="./main.0cf8b554.js"></script>
+  </body>
 </html>
